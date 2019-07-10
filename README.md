@@ -40,6 +40,8 @@ Network : `Renkeby`
 
 `web3 v0.20.7`
 
+`node v10.15.1`
+
 
 https://rinkeby.etherscan.io/address/0xdb64987f512efe83c6930da31f7b9e4a2075b332
 
