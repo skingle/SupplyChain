@@ -22,7 +22,7 @@ SupplyChain is a study project, create smart contract to track products using Et
 
 ## Libraries
 
- `Roles` library is used to create diffrent roles such as Farmers, Distributor, Retailer and Consumer.
+ `Roles` library is used to create different roles such as Farmers, Distributor, Retailer and Consumer.
 
 
 ## Contract Information
