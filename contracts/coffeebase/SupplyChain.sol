@@ -99,6 +99,11 @@ contract SupplyChain is ConsumerRole, FarmerRole, RetailerRole, DistributorRole,
     items[_upc].consumerID.transfer(amountToReturn);
     _;
   }
+  //check if the product is already there
+  modifier checkProductPresent(uint _upc){
+    require(items[_upc].sku == 0,"Product is already there");
+    _;
+  }
 
   // Define a modifier that checks if an item.state of a upc is Harvested
   modifier harvested(uint _upc) {
@@ -168,6 +173,7 @@ contract SupplyChain is ConsumerRole, FarmerRole, RetailerRole, DistributorRole,
 
   // Define a function 'harvestItem' that allows a farmer to mark an item 'Harvested'
   function harvestItem(uint _upc, address _originFarmerID, string memory _originFarmName, string memory _originFarmInformation, string memory _originFarmLatitude, string memory _originFarmLongitude, string memory _productNotes) public 
+  checkProductPresent(_upc)
   {
     // Add the new item as part of Harvest
     items[_upc].sku = sku;
