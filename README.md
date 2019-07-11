@@ -24,6 +24,7 @@ SupplyChain is a study project, create smart contract to track products using Et
 
  `Roles` library is used to create different roles such as Farmers, Distributor, Retailer and Consumer.
 
+## IPFS
 
 ## Contract Information
 
@@ -41,6 +42,19 @@ Network : `Renkeby`
 `web3 v0.20.7`
 
 `node v10.15.1`
+
+check truffle version using
+
+`truffle`
+
+check the version of truffle is same as given above if not install using 
+
+`npm install -g truffle@4.1.14`
+
+In project folder execute following command which will install `truffle-hdwallet-provider` and `web3`
+
+`npm install `
+
 
 
 https://rinkeby.etherscan.io/address/0xdb64987f512efe83c6930da31f7b9e4a2075b332
