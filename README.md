@@ -38,11 +38,11 @@ Contract address : `0xdb64987f512efe83c6930da31f7b9e4a2075b332`
 Network : `Renkeby`
 
 ## Execution and testing
-`Truffle v4.1.14`
+`Truffle v5.0.27`
 
 `truffle-hdwallet-provider v1.0.13`
 
-`web3 v0.20.7`
+`web3 v1.0.0-beta.55`
 
 `node v10.15.1`
 
@@ -52,7 +52,7 @@ check truffle version using
 
 check the version of truffle is same as given above if not install using 
 
-`npm install -g truffle@4.1.14`
+`npm install -g truffle@latest`
 
 In project folder execute following command which will install `truffle-hdwallet-provider` and `web3`
 
