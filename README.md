@@ -1,6 +1,6 @@
 # SupplyChain
 
-SupplyChain is a study project, create smart contract to track products using Ethereum Blockchain
+SupplyChain is a study project.It creates a smart contract that can track products lifecycle using Ethereum Blockchain
 
 ## UML Diagrams
 
